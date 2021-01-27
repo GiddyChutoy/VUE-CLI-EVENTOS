@@ -12,6 +12,8 @@
 
     <br />
 
+
+    <h2>Borrar la lista</h2>
     <input
       type="button"
       v-on:click="borrarAbsolutamenteTodo"

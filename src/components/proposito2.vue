@@ -1,5 +1,6 @@
 <template>
     <div id="proposito2">
+        <h2>Añadir un proposito</h2>
         <input type="text" v-model="contenidoInput" @keydown.enter="anadirProposito" name="nuevoProposito" id="nuevoProposito">
         <input type="button" value="Añadir" @click="anadirProposito">
     </div>
